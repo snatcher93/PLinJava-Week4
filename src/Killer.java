@@ -9,7 +9,7 @@ public class Killer extends Person {
 	}
 
 	String introduce() {
-		return "¹«±â : " + weapon + ", " + super.introduce();
+		return "ë¬´ê¸° : " + weapon + ", " + super.introduce();
 	}
 
 	String getWeapon() {

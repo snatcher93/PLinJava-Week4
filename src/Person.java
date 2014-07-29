@@ -3,7 +3,7 @@ public class Person {
 	int age;
 
 	Person() {
-		this("»ç¶÷", 1);
+		this("ì‚¬ëŒ", 1);
 	}
 
 	Person(String name, int age) {
@@ -16,12 +16,11 @@ public class Person {
 	}
 
 	String introduce() {
-		return "ÀÌ¸§ : " + name + ", ³ªÀÌ " + age + "¼¼";
+		return "ì´ë¦„: : " + name + ",  " + age + "";
 	}
 
 	public static void main(String[] args) {
-		Person yotsuba = new Killer("¿äÃ÷¹Ù", 5, 
-                "You can tell me in hell.", "ÃÑ");
+		Person yotsuba = new Killer("ìš”ì¸ ë°”", 5,  "You can tell me in hell.", "ì´");
 
 		System.out.println(yotsuba.introduce());
 	}

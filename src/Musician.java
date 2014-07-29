@@ -8,10 +8,10 @@ public class Musician extends Person {
 	}
 
 	String introduce() {
-		return "¾Ç±â : " + instrument + ", " + super.introduce();
+		return "ì•…ê¸° : " + instrument + ", " + super.introduce();
 	}
 
 	String play() {
-		return instrument + " ¿¬ÁÖ";
+		return instrument + " ï¿½ï¿½ï¿½ï¿½";
 	}
 }
