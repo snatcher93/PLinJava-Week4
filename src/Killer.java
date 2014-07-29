@@ -9,7 +9,7 @@ public class Killer extends Person {
 	}
 
 	String introduce() {
-		return "무기 : " + weapon + ", " + "이름 : " + name + ", 나이 " + age + "세";
+		return "무기 : " + weapon + ", " + super.introduce();
 	}
 
 	String getWeapon() {

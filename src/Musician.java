@@ -7,6 +7,10 @@ public class Musician extends Person {
 		this.instrument = instrument;
 	}
 
+	String introduce() {
+		return "¾Ç±â : " + instrument + ", " + super.introduce();
+	}
+
 	String play() {
 		return instrument + " ¿¬ÁÖ";
 	}
