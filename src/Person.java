@@ -20,9 +20,9 @@ public class Person {
 	}
 
 	public static void main(String[] args) {
-		Person person = new Killer("¿äÃ÷¹Ù", 5, "You can tell me in hell.", "ÃÑ");
-		Killer killer = (Killer)person;
-		System.out.println(killer.introduce());
-		
+		Person yotsuba = new Killer("¿äÃ÷¹Ù", 5, 
+                "You can tell me in hell.", "ÃÑ");
+
+		System.out.println(yotsuba.introduce());
 	}
 }
